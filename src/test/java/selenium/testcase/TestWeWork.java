@@ -14,10 +14,18 @@ public class TestWeWork {
     }
 
     @Test
-    public void testStart(){
-        String phone = "18521552066";
+    public void testAdd(){
+        String phone = "18521550001";
         app.toMemberAdd().add(phone,phone,phone);
     }
+
+    @Test
+    public void testDelete(){
+        String phone = "18521550002";
+        app.toMemberAdd().add(phone,phone,phone).delete(phone);
+
+    }
+
 
 
 }

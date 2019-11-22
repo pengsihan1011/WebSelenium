@@ -3,7 +3,6 @@ package selenium.page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.concurrent.TimeUnit;
 
 public class App extends BasePage {
@@ -14,15 +13,11 @@ public class App extends BasePage {
         driver.get(url);
         driver.manage().window().maximize();
         driver.findElement(By.linkText("企业登录")).click();
-
 //        System.out.println(driver.manage().getCookies()); //.sout 快捷用法，可直接打印
-
 //        driver.manage().addCookie(new Cookie("wwrtx.refid","33902839002603252"));
-        driver.manage().addCookie(new Cookie("wwrtx.sid","pFBM-3tNpawbO5Ik6-5yvEbzgRihrVB8lIA19XFohqp8IopqknCVscV7uxjYmcNN"));
-
+        driver.manage().addCookie(new Cookie("wwrtx.sid","pFBM-3tNpawbO5Ik6-5yvIv50zNd0errZeifugTnXuYeyM-2_ZXCToggNPShv2n-"));
         driver.navigate().refresh();  //刷新页面
         return this;
-
     }
 
     public ContactPage toContact(){
