@@ -11,16 +11,18 @@ public class TestWeWork {
     public static void beforeAll(){
         app = new App();
         app.loginWithCookie();
+        String phone = "18521550001";
+        app.toContact().delete(phone);
     }
 
     @Test
-    public void testAdd(){
+    public void add(){
         String phone = "18521550001";
         app.toMemberAdd().add(phone,phone,phone);
     }
 
     @Test
-    public void testDelete(){
+    public void delete(){
         String phone = "18521550002";
         app.toMemberAdd().add(phone,phone,phone).delete(phone);
 

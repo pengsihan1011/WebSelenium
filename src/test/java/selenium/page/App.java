@@ -14,13 +14,13 @@ public class App extends BasePage {
         driver.manage().window().maximize();
         driver.findElement(By.linkText("企业登录")).click();
 //        System.out.println(driver.manage().getCookies()); //.sout 快捷用法，可直接打印
-//        driver.manage().addCookie(new Cookie("wwrtx.refid","33902839002603252"));
         driver.manage().addCookie(new Cookie("wwrtx.sid","pFBM-3tNpawbO5Ik6-5yvIv50zNd0errZeifugTnXuYeyM-2_ZXCToggNPShv2n-"));
         driver.navigate().refresh();  //刷新页面
         return this;
     }
 
     public ContactPage toContact(){
+        findElement(By.linkText("通讯录")).click();
         return new ContactPage();
     }
 

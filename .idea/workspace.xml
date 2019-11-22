@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f104a93-fe01-4322-98dd-8415da9bc7d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/web自动化Selenium学习项目.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestDemo2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/page/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/page/ContactPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestWeWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestWeWork.class" afterDir="false" />
@@ -75,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestWeWork.testDelete">
+  <component name="RunManager" selected="JUnit.TestWeWork (1)">
     <configuration name="TestDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestDemo2" />
       <module name="web自动化Selenium学习项目" />
@@ -143,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestWeWork.testDelete" />
         <item itemvalue="JUnit.TestWeWork (1)" />
+        <item itemvalue="JUnit.TestWeWork.testDelete" />
         <item itemvalue="Application.TestDemo2" />
         <item itemvalue="JUnit.TestWeWork" />
         <item itemvalue="TestNG.TestWeChatCookie.testWeChatCookie1" />
@@ -165,8 +161,16 @@
       <workItem from="1572922769238" duration="20806000" />
       <workItem from="1573434413774" duration="34781000" />
       <workItem from="1574039984881" duration="22095000" />
-      <workItem from="1574386680314" duration="1722000" />
+      <workItem from="1574386680314" duration="7951000" />
     </task>
+    <task id="LOCAL-00001" summary="1122-002">
+      <created>1574388569028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574388569029</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,5 +196,28 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1122-002" />
+    <option name="LAST_COMMIT_MESSAGE" value="1122-002" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java</url>
+          <line>24</line>
+          <properties class="selenium.testcase.TestWeWork" method="testDelete">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

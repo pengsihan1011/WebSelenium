@@ -18,4 +18,9 @@ public class BasePage {
         new WebDriverWait(driver,timeout).until(ExpectedConditions.elementToBeClickable(by));
     }
 
+    public void quit() throws InterruptedException {
+        Thread.sleep(20000);
+        driver.quit();
+    }
+
 }
