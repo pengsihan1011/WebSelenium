@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.41 sec <<< FAILURE!
+actionTest(ActionTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Key Down / Up events only make sense for modifier keys.
+	at org.openqa.selenium.interactions.internal.SingleKeyAction.<init>(SingleKeyAction.java:49)
+	at org.openqa.selenium.interactions.internal.SingleKeyAction.<init>(SingleKeyAction.java:37)
+	at org.openqa.selenium.interactions.KeyDownAction.<init>(KeyDownAction.java:40)
+	at org.openqa.selenium.interactions.Actions.keyDown(Actions.java:115)
+	at ActionTest.actionTest(ActionTest.java:19)
+
+addCookie(CookieTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Required attributes are not set or any non-null attribute set to null
+	at org.openqa.selenium.Cookie.validate(Cookie.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.addCookie(RemoteWebDriver.java:681)
+	at CookieTest.addCookie(CookieTest.java:31)
+
