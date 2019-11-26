@@ -2,7 +2,6 @@ package selenium.page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
@@ -20,7 +19,7 @@ public class ContactPage extends BasePage{
         findElement(By.id("memberSearchInput")).clear();
         findElement(By.id("memberSearchInput")).sendKeys(keyword);
         try{
-            watClickable(By.linkText("编辑"),5);
+            waitClickable(By.linkText("编辑"),5);
         }catch (Exception e ){
             System.out.println("not found 编辑");
             return this;
@@ -32,9 +31,13 @@ public class ContactPage extends BasePage{
 
     public ContactPage deleteCurrentAll(){
 //        findElement(By.cssSelector(".ww_checkbox")).click();
-        watClickable(By.cssSelector(".ww_checkbox"),5);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        waitClickable(By.cssSelector(".ww_checkbox"),5);
         List<WebElement>elements = driver.findElements(By.cssSelector(".ww_checkbox"));
-        //stale element reference:element is not attached to the page document存在动态变化的页面
         for(int i =1; i<elements.size();i++){
             System.out.println(i);
             elements.get(i).click();
@@ -44,10 +47,15 @@ public class ContactPage extends BasePage{
                 e.printStackTrace();
             }
         }
-
         findElement(By.linkText("删除")).click();
         findElement(By.linkText("确认")).click();
         return this;
+    }
+
+    public void importFromFile(){
+        findElement(By.partialLinkText("批量导入/导出")).click();
+        findElement(By.linkText("文件导入")).click();
+        findElement(By.id("js_upload_file_input"),0).sendKeys("F://WebSelenium/通讯录批量导入模板.xlsx");
     }
 
     public void list(){

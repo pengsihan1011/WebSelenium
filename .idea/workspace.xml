@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f104a93-fe01-4322-98dd-8415da9bc7d8" name="Default Changelist" comment="1122-002">
+    <list default="true" id="6f104a93-fe01-4322-98dd-8415da9bc7d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" afterDir="false" />
@@ -31,6 +31,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SelenimuDemo" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,14 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestWeWork.deleteCurrentAll">
-    <configuration name="TestDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestDemo2" />
-      <module name="web自动化Selenium学习项目" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestWeWork.importFromFile">
     <configuration name="TestWeWork (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenimuDemo" />
       <extension name="coverage">
@@ -127,6 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestWeWork.importFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SelenimuDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.testcase" />
+      <option name="MAIN_CLASS_NAME" value="selenium.testcase.TestWeWork" />
+      <option name="METHOD_NAME" value="importFromFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestWeWork.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenimuDemo" />
       <extension name="coverage">
@@ -145,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestWeWork.deleteCurrentAll" />
+        <item itemvalue="JUnit.TestWeWork.importFromFile" />
         <item itemvalue="JUnit.TestWeWork (1)" />
+        <item itemvalue="JUnit.TestWeWork.deleteCurrentAll" />
         <item itemvalue="JUnit.TestWeWork.delete" />
         <item itemvalue="JUnit.TestWeWork.testDelete" />
-        <item itemvalue="Application.TestDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +180,7 @@
       <workItem from="1573434413774" duration="34781000" />
       <workItem from="1574039984881" duration="22095000" />
       <workItem from="1574386680314" duration="7951000" />
-      <workItem from="1574660746644" duration="7013000" />
+      <workItem from="1574660746644" duration="15890000" />
     </task>
     <task id="LOCAL-00001" summary="1122-002">
       <created>1574388569028</created>
@@ -177,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574388569029</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1126-001 deleteCurrentAll">
+      <created>1574734986570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574734986570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,25 +227,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1122-002" />
-    <option name="LAST_COMMIT_MESSAGE" value="1122-002" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java</url>
-          <line>25</line>
-          <properties class="selenium.testcase.TestWeWork" method="delete">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="1126-001 deleteCurrentAll" />
+    <option name="LAST_COMMIT_MESSAGE" value="1126-001 deleteCurrentAll" />
   </component>
 </project>

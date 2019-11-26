@@ -12,14 +12,14 @@ public class TestWeWork {
     public static void beforeAll(){
         app = new App();
         app.loginWithCookie();
-        String phone = "18521550001";
-        app.toContact().delete(phone);
     }
 
     @Test
     public void add(){
         String phone = "18521550001";
-        app.toMemberAdd().add(phone,phone,phone);
+        app.toContact().delete(phone);
+        String phone1 = "18521550001";
+        app.toMemberAdd().add(phone,phone,phone1);
     }
 
     @Test
@@ -32,6 +32,11 @@ public class TestWeWork {
     @Test
     public void deleteCurrentAll(){
         app.toContact().deleteCurrentAll();
+    }
+
+    @Test
+    public void importFromFile(){
+        app.toContact().importFromFile();
     }
 
     @AfterClass

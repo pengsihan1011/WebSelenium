@@ -10,10 +10,23 @@ public class BasePage {
     public static WebDriver driver;
 
     public WebElement findElement(By by){
+        waitClickable(by);
         return driver.findElement(by);
     }
 
-    public void watClickable(By by, int timeout){
+    public WebElement findElement(By by,int timeout){
+        if(timeout > 0){
+            waitClickable(by,5);
+        }
+        return driver.findElement(by);
+    }
+
+    public void waitClickable(By by){
+        new WebDriverWait(driver,3).until(ExpectedConditions.visibilityOfElementLocated(by));
+        new WebDriverWait(driver,3).until(ExpectedConditions.elementToBeClickable(by));
+    }
+
+    public void waitClickable(By by, int timeout){
         new WebDriverWait(driver,timeout).until(ExpectedConditions.visibilityOfElementLocated(by));
         new WebDriverWait(driver,timeout).until(ExpectedConditions.elementToBeClickable(by));
     }
