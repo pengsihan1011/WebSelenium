@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f104a93-fe01-4322-98dd-8415da9bc7d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Page/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Page/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Page/LogInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Page/LogInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ActionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ActionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CookieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CookieTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaScriptTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaScriptTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LogInPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TakeScreenshotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TakeScreenshotTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestWeChatCookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestWeChatCookie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/page/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/page/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/page/ContactPage.class" afterDir="false" />
@@ -61,7 +72,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,6 +192,7 @@
       <workItem from="1574039984881" duration="22095000" />
       <workItem from="1574386680314" duration="7951000" />
       <workItem from="1574660746644" duration="15890000" />
+      <workItem from="1574776623589" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="1122-002">
       <created>1574388569028</created>

@@ -55,7 +55,8 @@ public class ContactPage extends BasePage{
     public void importFromFile(){
         findElement(By.partialLinkText("批量导入/导出")).click();
         findElement(By.linkText("文件导入")).click();
-        findElement(By.id("js_upload_file_input"),0).sendKeys("F://WebSelenium/通讯录批量导入模板.xlsx");
+        findElement(By.id("js_upload_file_input"),0).sendKeys("/Users/pengsihan/Desktop/通讯录批量导入模板.xlsx");
+        findElement(By.id("submit_csv")).click();
     }
 
     public void list(){

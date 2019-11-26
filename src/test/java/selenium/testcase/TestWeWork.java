@@ -26,7 +26,6 @@ public class TestWeWork {
     public void delete(){
         String phone = "18521550002";
         app.toMemberAdd().add(phone,phone,phone).delete(phone);
-
     }
 
     @Test
