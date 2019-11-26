@@ -36,4 +36,10 @@ public class App extends BasePage {
         return new ContactPage();
     }
 
+    public BroadcastPage toGroupMessage(){
+        findElement(By.linkText("管理工具")).click();
+        findElement(By.cssSelector(".ww_icon_AppGroupMessageBig")).click();
+        return new BroadcastPage();
+    }
+
 }

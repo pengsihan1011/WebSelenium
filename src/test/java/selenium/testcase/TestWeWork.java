@@ -42,7 +42,4 @@ public class TestWeWork {
     public static void afterAll() throws InterruptedException {
         app.quit();
     }
-
-
-
 }

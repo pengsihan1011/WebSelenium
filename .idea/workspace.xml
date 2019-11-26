@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6f104a93-fe01-4322-98dd-8415da9bc7d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/page/ContactPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestWeWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestWeWork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/page/App.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1T8u39xknQoGrPTuQm2fS2LZbil" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestWeWork.importFromFile">
+  <component name="RunManager" selected="TestNG.TestGroupMessage.send">
     <configuration name="TestWeWork (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenimuDemo" />
       <extension name="coverage">
@@ -135,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWeWork.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGroupMessage.send" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SelenimuDemo" />
       <extension name="coverage">
         <pattern>
@@ -144,20 +147,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium.testcase" />
-      <option name="MAIN_CLASS_NAME" value="selenium.testcase.TestWeWork" />
-      <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="selenium.testcase.TestGroupMessage" />
+      <option name="METHOD_NAME" value="send" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestGroupMessage.send" />
         <item itemvalue="JUnit.TestWeWork.importFromFile" />
         <item itemvalue="JUnit.TestWeWork (1)" />
         <item itemvalue="JUnit.TestWeWork.deleteCurrentAll" />
         <item itemvalue="JUnit.TestWeWork.delete" />
-        <item itemvalue="JUnit.TestWeWork.testDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +182,7 @@
       <workItem from="1574039984881" duration="22095000" />
       <workItem from="1574386680314" duration="7951000" />
       <workItem from="1574660746644" duration="15890000" />
-      <workItem from="1574776623589" duration="2388000" />
+      <workItem from="1574776623589" duration="4701000" />
     </task>
     <task id="LOCAL-00001" summary="1122-002">
       <created>1574388569028</created>
@@ -207,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574779614192</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1126-22:52 importFromfile">
+      <created>1574779944863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574779944863</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +252,7 @@
     <MESSAGE value="1122-002" />
     <MESSAGE value="1126-001 deleteCurrentAll" />
     <MESSAGE value="1126-22:40 importFromfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="1126-22:40 importFromfile" />
+    <MESSAGE value="1126-22:52 importFromfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="1126-22:52 importFromfile" />
   </component>
 </project>

@@ -10,11 +10,11 @@ public class BasePage {
     public static WebDriver driver;
 
     public WebElement findElement(By by){
-        waitClickable(by);
-        return driver.findElement(by);
+        return findElement(by,5);
     }
 
     public WebElement findElement(By by,int timeout){
+        System.out.println(by);
         if(timeout > 0){
             waitClickable(by,5);
         }
