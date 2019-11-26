@@ -1,5 +1,6 @@
 package selenium.testcase;
 
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import selenium.page.App;
@@ -26,6 +27,16 @@ public class TestWeWork {
         String phone = "18521550002";
         app.toMemberAdd().add(phone,phone,phone).delete(phone);
 
+    }
+
+    @Test
+    public void deleteCurrentAll(){
+        app.toContact().deleteCurrentAll();
+    }
+
+    @AfterClass
+    public static void afterAll() throws InterruptedException {
+        app.quit();
     }
 
 

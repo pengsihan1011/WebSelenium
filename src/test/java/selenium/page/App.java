@@ -3,6 +3,8 @@ package selenium.page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.rmi.server.ExportException;
 import java.util.concurrent.TimeUnit;
 
 public class App extends BasePage {
@@ -14,7 +16,7 @@ public class App extends BasePage {
         driver.manage().window().maximize();
         driver.findElement(By.linkText("企业登录")).click();
 //        System.out.println(driver.manage().getCookies()); //.sout 快捷用法，可直接打印
-        driver.manage().addCookie(new Cookie("wwrtx.sid","pFBM-3tNpawbO5Ik6-5yvIv50zNd0errZeifugTnXuYeyM-2_ZXCToggNPShv2n-"));
+        driver.manage().addCookie(new Cookie("wwrtx.sid","pFBM-3tNpawbO5Ik6-5yvGFXvKNJu18ln_GSY-Oj-xQsBrnSOXALkqEqzN3R8IQh"));
         driver.navigate().refresh();  //刷新页面
         return this;
     }
@@ -25,7 +27,13 @@ public class App extends BasePage {
     }
 
     public ContactPage toMemberAdd(){ //命名：名词在前动词在后 比较清晰
+        watClickable(By.linkText("设置所在部门"),5);
         findElement(By.linkText("添加成员")).click();
+        try{
+            watClickable(By.linkText("保存并继续添加"),5);
+        }catch (Exception e){
+            System.out.println("从通讯录页进入添加成员失败");
+        }
         return new ContactPage();
     }
 

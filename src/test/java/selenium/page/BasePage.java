@@ -19,7 +19,7 @@ public class BasePage {
     }
 
     public void quit() throws InterruptedException {
-        Thread.sleep(20000);
+        Thread.sleep(7000);
         driver.quit();
     }
 

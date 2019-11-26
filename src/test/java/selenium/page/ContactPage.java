@@ -1,6 +1,10 @@
 package selenium.page;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
 
 public class ContactPage extends BasePage{
 
@@ -23,7 +27,26 @@ public class ContactPage extends BasePage{
         }
         findElement(By.linkText("删除")).click();
         findElement(By.linkText("确认")).click();
-//        findElement(By.id("clearMemberSearchInput")).click();
+        return this;
+    }
+
+    public ContactPage deleteCurrentAll(){
+//        findElement(By.cssSelector(".ww_checkbox")).click();
+        watClickable(By.cssSelector(".ww_checkbox"),5);
+        List<WebElement>elements = driver.findElements(By.cssSelector(".ww_checkbox"));
+        //stale element reference:element is not attached to the page document存在动态变化的页面
+        for(int i =1; i<elements.size();i++){
+            System.out.println(i);
+            elements.get(i).click();
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+        findElement(By.linkText("删除")).click();
+        findElement(By.linkText("确认")).click();
         return this;
     }
 
