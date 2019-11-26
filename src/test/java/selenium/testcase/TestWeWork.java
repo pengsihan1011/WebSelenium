@@ -35,7 +35,7 @@ public class TestWeWork {
 
     @Test
     public void importFromFile(){
-        app.toContact().importFromFile();
+        app.toContact().importFromFile("/Users/pengsihan/Desktop/通讯录批量导入模板.xlsx");
     }
 
     @AfterClass

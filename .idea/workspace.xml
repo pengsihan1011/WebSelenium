@@ -4,6 +4,9 @@
     <list default="true" id="6f104a93-fe01-4322-98dd-8415da9bc7d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/page/ContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestWeWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestWeWork.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +177,7 @@
       <workItem from="1574039984881" duration="22095000" />
       <workItem from="1574386680314" duration="7951000" />
       <workItem from="1574660746644" duration="15890000" />
-      <workItem from="1574776623589" duration="2078000" />
+      <workItem from="1574776623589" duration="2388000" />
     </task>
     <task id="LOCAL-00001" summary="1122-002">
       <created>1574388569028</created>
@@ -197,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574779240844</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1126-22:40 importFromfile">
+      <created>1574779614192</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574779614192</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
