@@ -17,6 +17,7 @@ public class BasePage {
         System.out.println(by);
         if(timeout > 0){
             waitClickable(by,5);
+            System.out.println("clickable");
         }
         return driver.findElement(by);
     }

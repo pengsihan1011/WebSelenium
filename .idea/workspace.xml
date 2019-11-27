@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestWeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/page/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/BroadcastPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/BroadcastPage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestGroupMessage.send">
+  <component name="RunManager" selected="TestNG.TestGroupMessage">
     <configuration name="TestWeWork (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenimuDemo" />
       <extension name="coverage">
@@ -86,22 +85,6 @@
       <option name="PACKAGE_NAME" value="selenium.testcase" />
       <option name="MAIN_CLASS_NAME" value="selenium.testcase.TestWeWork" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWeWork.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SelenimuDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.testcase" />
-      <option name="MAIN_CLASS_NAME" value="selenium.testcase.TestWeWork" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,6 +121,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestGroupMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SelenimuDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.testcase" />
+      <option name="MAIN_CLASS_NAME" value="selenium.testcase.TestGroupMessage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestGroupMessage.send" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SelenimuDemo" />
       <extension name="coverage">
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestGroupMessage" />
         <item itemvalue="TestNG.TestGroupMessage.send" />
         <item itemvalue="JUnit.TestWeWork.importFromFile" />
         <item itemvalue="JUnit.TestWeWork (1)" />
         <item itemvalue="JUnit.TestWeWork.deleteCurrentAll" />
-        <item itemvalue="JUnit.TestWeWork.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,8 @@
       <workItem from="1574039984881" duration="22095000" />
       <workItem from="1574386680314" duration="7951000" />
       <workItem from="1574660746644" duration="15890000" />
-      <workItem from="1574776623589" duration="4701000" />
+      <workItem from="1574776623589" duration="4893000" />
+      <workItem from="1574867434352" duration="3067000" />
     </task>
     <task id="LOCAL-00001" summary="1122-002">
       <created>1574388569028</created>
