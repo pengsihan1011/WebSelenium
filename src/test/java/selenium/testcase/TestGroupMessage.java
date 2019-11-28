@@ -5,6 +5,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import selenium.page.App;
 
+import java.util.List;
+
+import static org.junit.Assert.assertThat;
+
 public class TestGroupMessage {
     public static App app;
 
@@ -16,9 +20,13 @@ public class TestGroupMessage {
 
     @Test
     public void send(){
-        app.toGroupMessage().send("思晗","EMS","your EMS has been arrived",
-                                "EMS arrived","PSH");
+        String  title = "EMS1";
+        List<String> sendedMsg = app.toGroupMessage()
+                                                    .send("思晗", title,"your EMS has been arrived", "EMS arrived","PSH")
+                                                    .getSendedMsg();
+        assertThat(sendedMsg, );
     }
+
 
     @AfterClass
     public static void afterAll() throws InterruptedException {

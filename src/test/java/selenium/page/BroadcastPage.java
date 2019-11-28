@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import javax.swing.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BroadcastPage extends BasePage{
@@ -45,5 +46,14 @@ public class BroadcastPage extends BasePage{
         findElement(By.linkText("发送")).click();
         findElement(By.linkText("确定")).click();
         return this;
+    }
+
+    public List<String>getSendedMsg(){
+        findElement(By.linkText("已发送")).click();
+        List<String> msg = new ArrayList<>();
+        driver.findElements(By.cssSelector(".msg_history_msgList_td")).forEach(element -> {
+            msg.add(element.getText());
+        });
+        return msg;
     }
 }
