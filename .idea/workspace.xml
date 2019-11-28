@@ -4,7 +4,6 @@
     <list default="true" id="6f104a93-fe01-4322-98dd-8415da9bc7d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/BroadcastPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/BroadcastPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestGroupMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestGroupMessage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

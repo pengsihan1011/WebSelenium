@@ -24,7 +24,7 @@ public class BroadcastPage extends BasePage{
 /*        WebElement element = findElement(By.linkText("存为草稿"));
         String js = "arguments[0].scrollIntoView(true)";
         ((JavascriptExecutor)driver).executeScript(js,element);*/
-        ((JavascriptExecutor)driver).executeScript("window.scroll(0,800)");
+        ((JavascriptExecutor)driver).executeScript("window.scroll(0,1200)");
 
         findElement(By.cssSelector(".msg_edit_infoItem_textWord")).click();
         //依赖于上面的click才可以sendKeys
@@ -41,6 +41,7 @@ public class BroadcastPage extends BasePage{
         //从frame中切换出来
         driver.switchTo().parentFrame();
 //        driver.switchTo().defaultContent();
+        ((JavascriptExecutor)driver).executeScript("window.scroll(0,1200)");
         findElement(By.linkText("发送")).click();
         findElement(By.linkText("确定")).click();
         return this;
