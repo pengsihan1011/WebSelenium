@@ -34,6 +34,7 @@ public class BroadcastPage extends BasePage{
         findElement(By.cssSelector(".msg_noticeEditor_frameBody")).sendKeys(body);
 
         driver.switchTo().parentFrame();
+//        driver.switchTo().defaultContent();
         findElement(By.linkText("发送")).click();
         findElement(By.linkText("确定")).click();
         return this;
