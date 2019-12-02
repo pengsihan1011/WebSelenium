@@ -3,6 +3,7 @@ package selenium.page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import java.util.HashMap;
 import java.util.List;
 
 public class ContactPage extends BasePage{
@@ -62,6 +63,11 @@ public class ContactPage extends BasePage{
 
     public void list(){
 
+    }
+
+    public HashMap<String,String> getUserInfo(String keyword){
+        //自己来补充
+        return new HashMap<>();
     }
 
 }

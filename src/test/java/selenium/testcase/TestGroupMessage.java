@@ -8,6 +8,7 @@ import selenium.page.App;
 import java.util.List;
 
 import static org.junit.Assert.assertThat;
+import static org.junit.matchers.JUnitMatchers.hasItem;
 
 public class TestGroupMessage {
     public static App app;
@@ -20,13 +21,13 @@ public class TestGroupMessage {
 
     @Test
     public void send(){
-        String  title = "EMS1";
+        String  title = "你的快递到了" + System.currentTimeMillis();
         List<String> sendedMsg = app.toGroupMessage()
                                                     .send("思晗", title,"your EMS has been arrived", "EMS arrived","PSH")
-                                                    .getSendedMsg();
-        assertThat(sendedMsg, );
+                                                    .getSendedMsg().subList(0,3);
+        System.out.println(sendedMsg);
+        assertThat(sendedMsg, hasItem(title));
     }
-
 
     @AfterClass
     public static void afterAll() throws InterruptedException {
