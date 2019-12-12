@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="web自动化Selenium学习项目" />
         <module name="SelenimuDemo" />
+        <module name="WebSelenium" />
       </profile>
     </annotationProcessing>
   </component>

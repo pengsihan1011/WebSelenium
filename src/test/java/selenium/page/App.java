@@ -46,5 +46,5 @@ public class App extends BasePage {
         findElement(By.cssSelector(".ww_icon_AppGroupMessageBig")).click();
         return new BroadcastPage();
     }
-
+    //1212
 }

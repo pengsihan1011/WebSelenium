@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f104a93-fe01-4322-98dd-8415da9bc7d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/page/ContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestGroupMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testcase/TestGroupMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Page/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Page/LogInPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ActionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CookieTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaScriptTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/SelenimuDemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TakeScreenshotTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestWeChatCookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/BroadcastPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/page/ContactPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestGroupMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testcase/TestWeWork.class" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +60,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -50,29 +68,33 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.TestGroupMessage.send">
+  <component name="RunManager" selected="JUnit.Demo.testSwitchFrame">
+    <configuration name="Demo.testSwitchFrame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <option name="METHOD_NAME" value="testSwitchFrame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestWeWork (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenimuDemo" />
       <extension name="coverage">
@@ -84,22 +106,6 @@
       <option name="PACKAGE_NAME" value="selenium.testcase" />
       <option name="MAIN_CLASS_NAME" value="selenium.testcase.TestWeWork" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWeWork.deleteCurrentAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SelenimuDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.testcase" />
-      <option name="MAIN_CLASS_NAME" value="selenium.testcase.TestWeWork" />
-      <option name="METHOD_NAME" value="deleteCurrentAll" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,13 +163,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Demo.testSwitchFrame" />
         <item itemvalue="TestNG.TestGroupMessage.send" />
         <item itemvalue="TestNG.TestGroupMessage" />
         <item itemvalue="JUnit.TestWeWork.importFromFile" />
         <item itemvalue="JUnit.TestWeWork (1)" />
-        <item itemvalue="JUnit.TestWeWork.deleteCurrentAll" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -184,6 +202,7 @@
       <workItem from="1574776623589" duration="4893000" />
       <workItem from="1574867434352" duration="3067000" />
       <workItem from="1575267217280" duration="1459000" />
+      <workItem from="1576160613139" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="1122-002">
       <created>1574388569028</created>
@@ -255,5 +274,19 @@
     <MESSAGE value="1126-22:40 importFromfile" />
     <MESSAGE value="1126-22:52 importFromfile" />
     <option name="LAST_COMMIT_MESSAGE" value="1126-22:52 importFromfile" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="870" y="439" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576160658810">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="870" y="439" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1576160658810" />
+    <state x="523" y="182" key="SettingsEditor" timestamp="1576161429727">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="523" y="182" key="SettingsEditor/0.23.1792.1042@0.23.1792.1042" timestamp="1576161429727" />
+    <state x="886" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1576160620940">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="886" y="376" key="com.intellij.ide.util.TipDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1576160620940" />
   </component>
 </project>
